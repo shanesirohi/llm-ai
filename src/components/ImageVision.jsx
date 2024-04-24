@@ -82,7 +82,7 @@ const ImageVision = () => {
         <div className="chat chat-start">
           <div className="chat-image avatar">
             <div className="w-6 md:w-10 rounded-full">
-              <Image alt="o" src="/geminis.jpeg" width={50} height={50} />
+              <Image alt="o" src="/geminis.jpg" width={50} height={50} />
             </div>
           </div>
           <div className="chat-header mx-2 font-semibold opacity-80">

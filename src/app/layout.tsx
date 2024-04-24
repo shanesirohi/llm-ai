@@ -3,33 +3,33 @@ import "./globals.css";
 import Swap from "@/components/Swap";
 
 export const metadata: Metadata = {
-  title: "Gemini PRO",
-  description: "Chat with Gemini Pro AI",
+  title: "Gem LLM AI",
+  description: "",
   manifest: "/manifest.json",
-  metadataBase: new URL("https://geminix-pro.vercel.app/"),
+  metadataBase: new URL("https://llmdemoGem.vercel.app/"),
   openGraph: {
     type: "website",
-    url: "https://geminix-pro.vercel.app/",
-    title: "GeminiPRO Chat AI",
+    url: "https://llmdemoGem.vercel.app//",
+    title: "LLM Gem Model DEMO",
 
-    description: "Chat with Gemini Pro AI",
+    description: "",
     images: [
       {
-        url: "/android-chrome-192x192.png",
+        url: "/geminis.jpg",
         width: 192,
         height: 192,
-        alt: "GeminiPRO Chat AI",
+        alt: "Gem LLM",
       },
       {
-        url: "/android-chrome-512x512.png",
+        url: "/geminis.jpg",
         width: 512,
         height: 512,
-        alt: "GeminiPRO Chat AI",
+        alt: "GEMLLM",
       },
     ],
   },
   icons: {
-    icon: "/favicon-32x32.png",
+    icon: "/geminis.jpg",
     apple: "/apple-touch-icon.png",
   },
 };

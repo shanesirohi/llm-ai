@@ -13,7 +13,7 @@ const ChatArea = () => {
   const [history, setHistory] = useState([
     {
       role: "model",
-      parts: "Great to meet you. Im Gemini, your chatbot.",
+      parts: "Hi, I am a demo Large Language Model",
     },
   ]);
   const genAI = new GoogleGenerativeAI('AIzaSyCwc-Rl7XeHUuWYByAfM7swUtYioJFTjBw');
@@ -48,7 +48,7 @@ const ChatArea = () => {
       },
       {
         role: "model",
-        parts: "Thinking...",
+        parts: "Calculating",
       },
     ]);
     setinput("");
@@ -90,7 +90,7 @@ const ChatArea = () => {
     setHistory([
       {
         role: "model",
-        parts: "Great to meet you. Im Gemini, your chatbot.",
+        parts: "Great to meet you. Im a Generative LLM, designed by Shane, your chatbot.",
       },
     ]);
     setinput("");
@@ -111,14 +111,14 @@ const ChatArea = () => {
               <div className="w-6 md:w-10 rounded-full">
                 <Image
                   alt="o"
-                  src={item.role === "model" ? "/geminis.jpeg" : "/user.jpg"}
+                  src={item.role === "model" ? "/geminis.jpg" : "/user.jpg"}
                   width={50}
                   height={50}
                 />
               </div>
             </div>
             <div className="chat-header mx-2 font-semibold opacity-80">
-              {item.role === "model" ? "Gemini" : "You"}
+              {item.role === "model" ? "Terminator" : "You"}
             </div>
             <div
               className={`chat-bubble font-medium ${
